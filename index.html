@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+	<!-- Joseph Jones - Assignment 3 - 3/13/2022 -->
+	<meta charset="UTF-8">
+	<meta name="description" content="Project Proposal">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Joseph Jones">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="images/x-icon" href="./images/favicon.ico">
+	<title>KCC Information</title>
+	
+	<style>
+		article, header, nav, aside, section, footer {
+			display: block;
+			min-height: 50px;
+			outline: 1px solid #000;
+		}
+		
+		#title {
+			text-align: center;
+			font-size: 75px;
+		}
+		
+		.navbar {
+			text-align: center;
+		}
+		
+		#articleOne {
+			float: left;
+			position: absolute;
+			height: 700px;
+			width: 900px;
+			top: 150px;
+			left: 10px;
+		}
+		
+		#articleTwo {
+			float: right;
+			position: absolute;
+			height: 700px;
+			width: 900px;
+			top: 150px;
+			left: 1000px;
+		}
+		
+		.footer {
+			position: absolute;
+			width: 100%;
+			bottom: 0;
+			text-align: center;
+		}
+	</style>
+	
+	</head>
+	
+	<body>
+		<article>
+			<header id="title">King Charles Cavaliers</header>
+			<nav class="navbar"> <!-- I added dashes here to separate nav elements. It's not elegant, but during validation it didn't give a warning or complain. Are <p> tags better here? -->
+				<a href="#">Home</a> -
+				<a href="#">Breed info</a> -
+				<a href="#">Dietary needs</a> -
+				<a href="#">External resources</a>
+			</nav>
+			
+			<article id="articleOne">
+				<p>This is where the general information will go</p>
+			</article>
+			
+			<article id="articleTwo">
+				<p>This is where the pictures will go. Not sure how many I will put, so I will leave it without boxes.</p>
+			</article>
+			
+			
+			<footer class="footer">footer</footer>
+		</article>
+	</body>
+	
+</html>
